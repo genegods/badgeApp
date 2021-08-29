@@ -1,0 +1,49 @@
+body,.card-body,.card-footer{
+    background-color: #e4e4e3;
+
+}
+.card-header{
+    
+    background-color: #43619c;
+    color: whitesmoke;
+}
+
+
+.badgeWrapper{
+    position: relative;
+   
+   
+    
+}
+
+span{
+    position: absolute;
+    top: -2px;
+    left: 320px;
+    font-size: 40px;
+    font-weight: 600;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    color: whitesmoke;
+    animation: animate 0.9s ease-out infinite alternate ;
+
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0.7);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+.facebookImage{
+  
+    border-radius: 50%;
+    position: relative;
+}
